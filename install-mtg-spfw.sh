@@ -3,7 +3,7 @@ set -euo pipefail
 
 # ================= 配置 =================
 MTG_TAR_URL="https://github.com/9seconds/mtg/releases/download/v2.1.7/mtg-2.1.7-linux-amd64.tar.gz"
-SPFW_URL="https://github.com/Usagi537233/SPFW/releases/download/0.02/spfw"
+SPFW_URL="https://github.com/Usagi537233/SPFW/releases/download/0.03/spfw"
 INSTALL_DIR="/root/mtg"
 SERVICE_FILE="/etc/systemd/system/mtg-whitelist.service"
 LOG_DIR="$INSTALL_DIR/logs"
